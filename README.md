@@ -63,5 +63,3 @@ To run the CSV Data Analysis Tool, follow these steps:
 ```
 
 ---
-
-This README provides instructions for running the script, highlights its features, and outlines optional enhancements. It also includes a folder structure diagram for reference.
