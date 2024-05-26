@@ -1,6 +1,6 @@
 # CSV Data Analysis Tool (Born again shell) + Whiptail
 
-lol i know it's Bourne ( "born" just sound 🤌🏾)
+lol i know it's Bourne ( "born" just sounds 🤌🏾)
 
 The CSV Data Analysis Tool is a shell script program to help a friend :)
 
