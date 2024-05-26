@@ -21,7 +21,7 @@ To run the CSV Data Analysis Tool, follow these steps:
    
    ```
 
-2. Execute the main script:
+2. Execute the make_executable script which starts the main script:
 
    ```bash
    ./make_executable.sh
