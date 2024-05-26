@@ -1,5 +1,6 @@
 #!/bin/bash
-set -x
+# set -x
+shopt -s nullglob
 
 analyze_csv_file() {
     csv_files=(data/*.csv)
