@@ -1,8 +1,14 @@
-# CSV Data Analysis Tool (Born again shell)
+# CSV Data Analysis Tool (Born again shell) + Whiptail
 
 lol i know it's Bourne ( "born" just sound 🤌🏾)
 
 The CSV Data Analysis Tool is a shell script to help a friend :)
+
+## Installing Whiptail
+
+- ```sudo dnf install newt``` - Fedora
+- ```sudo apt-get install whiptail``` - Debian/ubuntu
+- ```sudo pacman -S newt``` - Arch
 
 ## Usage
 

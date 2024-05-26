@@ -1,20 +1,20 @@
 #!/bin/bash
 
 display_menu() {
-    echo "Menu:"
-    echo "1. Input CSV file"
-    echo "2. Analyze CSV file"
-    echo "3. Exit"
+    whiptail --title "CSV Data Analysis Tool" --menu "Select an option:" 15 60 3 \
+    "1" "Input CSV file" \
+    "2" "Analyze CSV file" \
+    "3" "Exit" \
+    3>&1 1>&2 2>&3
 }
 
 while true; do
-    display_menu
-    read -rp "Please select an option: " option
+    choice=$(display_menu)
     
-    case $option in
+    case $choice in
         1) ./input_csv.sh ;;
         2) ./analysis_functions.sh ;;
-        3) echo "Exiting."; exit ;;
-        *) echo "Invalid option. Please try again." ;;
+        3) whiptail --title "Exiting" --msgbox "Exiting CSV Data Analysis Tool." 8 40; exit ;;
+        *) whiptail --title "Invalid Choice" --msgbox "Please select a valid option." 8 40 ;;
     esac
 done
