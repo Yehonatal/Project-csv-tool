@@ -18,13 +18,13 @@ To run the CSV Data Analysis Tool, follow these steps:
 
    ```bash
    chmod +x make_executable.sh
-   ./make_executable.sh
+   
    ```
 
 2. Execute the main script:
 
    ```bash
-   ./main.sh
+   ./make_executable.sh
    ```
 
 ## Features
