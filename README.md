@@ -2,7 +2,7 @@
 
 lol i know it's Bourne ( "born" just sound 🤌🏾)
 
-The CSV Data Analysis Tool is a shell script to help a friend :)
+The CSV Data Analysis Tool is a shell script program to help a friend :)
 
 ## Installing Whiptail
 
